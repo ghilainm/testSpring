@@ -1,9 +1,9 @@
-<%@ include file="/WEB-INF/jsp/include.jsp" %>
+<%@ include file="/WEB-INF/jsp/templates/header.jsp" %>
 <html>
     <head>
         <title>Home</title>
     </head>
     <body>
-        <h1>Hello world!</h1>
+        <h1>Hello "$foo"!</h1>
     </body>
 </html>
