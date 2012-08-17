@@ -19,7 +19,11 @@ public class HomeController {
 	@Autowired
     Comparator<String> comparator;
  
-    @RequestMapping(value = "/home")
+	/**
+	 * Default page when no mapping found.
+	 * @return
+	 */
+    @RequestMapping()
     public String home() {
         System.out.println("HomeController: Passing through...");
         return "home";
